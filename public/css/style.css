@@ -1,6 +1,9 @@
+/* this one is a shocker, but it makes our h1 element red */
 h1{
     color: red;
 }
+
+/* another wild one, all elements with class 'completed' will have a strikethrough and be greyed out */
 .completed{
     text-decoration: line-through;
     color: gray;

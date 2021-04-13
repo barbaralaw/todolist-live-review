@@ -1,5 +1,8 @@
+// declares and assigns 'deleteBtn' to the button with class 'del' in our rendered html file
 const deleteBtn = document.querySelectorAll('.del')
+// declares and assigns 'todoItem' to all the spans within class 'todoItem' elements in our rendered html file
 const todoItem = document.querySelectorAll('.todoItem span')
+// declares and assigns 'todoComplete' to all the spans with 'completed' class within class 'todoItem' elements in our rendered html file
 const todoComplete = document.querySelectorAll('.todoItem span.completed')
 
 Array.from(deleteBtn).forEach((el)=>{
